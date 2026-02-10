@@ -1,0 +1,19 @@
+OUTPUT
+
+10	 x=0	 state=0	 --> 	 next state=0	 Hwy=10	 Country=00
+25	 x=1	 state=1	 --> 	 next state=2	 Hwy=01	 Country=00
+35	 x=1	 state=2	 --> 	 next state=3	 Hwy=00	 Country=00
+45	 x=0	 state=3	 --> 	 next state=4	 Hwy=00	 Country=10
+55	 x=0	 state=4	 --> 	 next state=0	 Hwy=00	 Country=01
+65	 x=0	 state=0	 --> 	 next state=0	 Hwy=10	 Country=00
+70	 x=1	 state=0	 --> 	 next state=1	 Hwy=10	 Country=00
+75	 x=1	 state=1	 --> 	 next state=2	 Hwy=01	 Country=00
+85	 x=1	 state=2	 --> 	 next state=3	 Hwy=00	 Country=00
+95	 x=1	 state=3	 --> 	 next state=3	 Hwy=00	 Country=10
+100	 x=0	 state=3	 --> 	 next state=4	 Hwy=00	 Country=10
+105	 x=0	 state=4	 --> 	 next state=0	 Hwy=00	 Country=01
+115	 x=0	 state=0	 --> 	 next state=0	 Hwy=10	 Country=00
+$finish called from file "testbench.sv", line 32.
+$finish at simulation time                  135
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 135 ns
