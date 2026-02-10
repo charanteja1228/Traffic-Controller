@@ -16,6 +16,8 @@ module traffic_signal_tb;
   always #5 clk=~clk;
   
    initial begin
+      $dumpfile("dump.vcd");
+      $dumpvars;
       clk=0;
       x = 0;
       reset = 1;
